@@ -27,14 +27,14 @@ To run this project, you will need to have Python 3.x installed along with the f
 
 You can install the required packages using pip:
 
-```bash
 pip install pandas numpy scikit-learn xgboost tensorflow matplotlib seaborn
 
 
-Dataset
+## Dataset
 The dataset used in this project is the Credit Card Fraud Detection dataset. It contains transactions made by credit cards in September 2013 by European cardholders. The dataset is highly imbalanced, with only 0.17% of transactions being fraudulent.
+Dataset link: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Methodology
+## Methodology
 
 Data Preprocessing:
 Load the dataset and perform exploratory data analysis (EDA).
@@ -50,10 +50,10 @@ Use evaluation metrics like AUC-ROC, precision, recall, and F1 score to assess m
 Comparison:
 Compare the performance of both models to determine which one is more effective at detecting fraud.
 
-Results
+## Results
 The models were evaluated based on their performance metrics, including accuracy, precision, recall, and AUC score. The results are visualized using confusion matrices and ROC curves for a clear comparison.
 
-Conclusion
+## Conclusion
 This project highlights the effectiveness of machine learning algorithms in detecting fraudulent transactions. The XGBoost model demonstrated a strong performance, showcasing the potential of machine learning in combating financial fraud.
 
 
